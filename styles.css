@@ -7,7 +7,7 @@
 body {
     font-family: "Microsoft JhengHei", sans-serif;
     line-height: 1.6;
-    background-image: url('./Images/profile_picture/001_ribbon_master.jpg');
+    background-image: url('/Images/profile_picture/001_ribbon_master.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
