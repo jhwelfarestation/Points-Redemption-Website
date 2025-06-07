@@ -145,6 +145,15 @@ h1 {
     font-size: 18px;
 }
 
+.points:contains('暫無庫存') {
+    color: #ff0000;
+}
+
+/* 使用 JavaScript 添加的類別樣式 */
+.out-of-stock {
+    color: #ff0000 !important;
+}
+
 .exchange-btn {
     background-color: #cfb56d;
     color: #231c1a;
