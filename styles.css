@@ -9,9 +9,19 @@ body {
     line-height: 1.6;
     background-image: url('/Images/profile_picture/001_ribbon_master.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 .container {
