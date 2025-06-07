@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>點數兌換商品目錄</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <img src="images/profile_picture/logo.jpg" alt="嘉尤福利站 Logo" class="logo">
+                <h1>嘉尤福利站 - 點數兌換商品目錄</h1>
+            </div>
+            <nav class="category-nav">
+                <button class="category-btn active" data-category="daily">生活用品</button>
+                <button class="category-btn" data-category="drinks">飲料</button>
+                <button class="category-btn" data-category="snacks">零食</button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="daily" class="product-section active">
+                <h2>生活用品</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/150" alt="商品圖片">
+                        <h3>衛生紙</h3>
+                        <p class="points">所需點數：100點</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/150" alt="商品圖片">
+                        <h3>洗衣精</h3>
+                        <p class="points">所需點數：200點</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="drinks" class="product-section">
+                <h2>飲料</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/150" alt="商品圖片">
+                        <h3>礦泉水</h3>
+                        <p class="points">所需點數：50點</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/150" alt="商品圖片">
+                        <h3>運動飲料</h3>
+                        <p class="points">所需點數：80點</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="snacks" class="product-section">
+                <h2>零食</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/150" alt="商品圖片">
+                        <h3>餅乾</h3>
+                        <p class="points">所需點數：60點</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/150" alt="商品圖片">
+                        <h3>巧克力</h3>
+                        <p class="points">所需點數：70點</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
