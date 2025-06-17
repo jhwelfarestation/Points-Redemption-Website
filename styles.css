@@ -286,3 +286,19 @@ h1 br + span {
     max-height: 50px !important;
     margin: 0 !important;
 }
+
+/* 手機版面樣式 */
+@media screen and (max-width: 768px) {
+    .category-nav {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0 10px;
+    }
+
+    .category-btn {
+        flex: 0 0 calc(50% - 5px);  /* 每行兩個按鈕，減去間距 */
+        min-width: 0;  /* 覆蓋原本的最小寬度 */
+        font-size: 16px;  /* 手機版面字體稍小 */
+        padding: 8px 10px;  /* 調整內邊距 */
+    }
+}
