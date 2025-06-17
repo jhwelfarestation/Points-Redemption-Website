@@ -101,12 +101,12 @@ h1 br + span {
 
 /* 飲料按鈕特定樣式 */
 .category-btn.drink {
-    background-color: rgba(64, 156, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     color: rgb(0, 0, 0);
 }
 
 .category-btn.drink:hover {
-    background-color: rgba(0, 98, 204, 0.9);
+    background-color: rgba(64, 156, 255, 0.9);
     color: white;
 }
 
@@ -117,12 +117,12 @@ h1 br + span {
 
 /* 生活用品按鈕特定樣式 */
 .category-btn.daily {
-    background-color: rgba(59, 165, 84, 0.9);  /* 綠色 */
+    background-color: rgba(255, 255, 255, 0.9);
     color: rgb(0, 0, 0);
 }
 
 .category-btn.daily:hover {
-    background-color: rgba(33, 136, 56, 0.9);
+    background-color: rgba(59, 165, 84, 0.9);  /* 綠色 */
     color: white;
 }
 
@@ -133,12 +133,12 @@ h1 br + span {
 
 /* 零食按鈕特定樣式 */
 .category-btn.snacks {
-    background-color: rgba(255, 206, 59, 0.9);  /* 黃色 */
+    background-color: rgba(255, 255, 255, 0.9);
     color: rgb(0, 0, 0);
 }
 
 .category-btn.snacks:hover {
-    background-color: rgba(211, 158, 0, 0.9);
+    background-color: rgba(255, 206, 59, 0.9);  /* 黃色 */
     color: white;
 }
 
@@ -148,13 +148,13 @@ h1 br + span {
 }
 
 /* 玩具雜項按鈕特定樣式 */
-.category-btn.toys {
-    background-color: rgba(219, 92, 105, 0.9);  /* 紅色 */
+.category-btn.toys { 
+    background-color: rgba(255, 255, 255, 0.9);
     color: rgb(0, 0, 0);
 }
 
 .category-btn.toys:hover {
-    background-color: rgba(200, 35, 51, 0.9);
+    background-color: rgba(219, 92, 105, 0.9);  /* 紅色 */
     color: white;
 }
 
