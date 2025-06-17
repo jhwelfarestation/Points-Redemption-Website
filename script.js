@@ -26,13 +26,13 @@ document.addEventListener('DOMContentLoaded', function() {
             const category = card.closest('.product-section').id;
             const points = card.querySelector('.points');
             
-            if (inventory[category] && inventory[category][productName] !== undefined) {
-                const stock = inventory[category][productName];
-                if (stock <= 0) {
+            if (inventory[category] && inventory[category][productName]) {
+                const product = inventory[category][productName];
+                if (product.stock <= 0) {
                     points.textContent = '暫無庫存';
                     points.classList.add('out-of-stock');
                 } else {
-                    points.textContent = `所需點數：${points.textContent.split('：')[1]}`;
+                    points.textContent = `所需點數：${product.points}點`;
                     points.classList.remove('out-of-stock');
                 }
             }
