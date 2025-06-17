@@ -61,6 +61,13 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+/* 標題第二行樣式 */
+h1 br + span {
+    font-size: 30px;
+    display: block;
+    margin-top: 5px;
+}
+
 .category-nav {
     display: flex;
     justify-content: center;
@@ -74,8 +81,11 @@ h1 {
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.9);
     cursor: pointer;
+    font-size: 18px;
     font-weight: bold;
     transition: all 0.3s ease;
+    min-width: 120px;
+    text-align: center;
 }
 
 .category-btn:hover {
@@ -91,18 +101,66 @@ h1 {
 
 /* 飲料按鈕特定樣式 */
 .category-btn.drink {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(64, 156, 255, 0.9);
     color: rgb(0, 0, 0);
 }
 
 .category-btn.drink:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgba(22, 135, 255, 0.9);
+    background-color: rgba(0, 98, 204, 0.9);
+    color: white;
 }
 
 .category-btn.drink.active {
-    color: rgb(255, 255, 255);
-    background-color: rgba(22, 135, 255, 0.9);
+    background-color: rgba(0, 98, 204, 0.9);
+    color: white;
+}
+
+/* 生活用品按鈕特定樣式 */
+.category-btn.daily {
+    background-color: rgba(59, 165, 84, 0.9);  /* 綠色 */
+    color: rgb(0, 0, 0);
+}
+
+.category-btn.daily:hover {
+    background-color: rgba(33, 136, 56, 0.9);
+    color: white;
+}
+
+.category-btn.daily.active {
+    background-color: rgba(33, 136, 56, 0.9);
+    color: white;
+}
+
+/* 零食按鈕特定樣式 */
+.category-btn.snacks {
+    background-color: rgba(255, 206, 59, 0.9);  /* 黃色 */
+    color: rgb(0, 0, 0);
+}
+
+.category-btn.snacks:hover {
+    background-color: rgba(211, 158, 0, 0.9);
+    color: white;
+}
+
+.category-btn.snacks.active {
+    background-color: rgba(211, 158, 0, 0.9);
+    color: white;
+}
+
+/* 玩具雜項按鈕特定樣式 */
+.category-btn.toys {
+    background-color: rgba(219, 92, 105, 0.9);  /* 紅色 */
+    color: rgb(0, 0, 0);
+}
+
+.category-btn.toys:hover {
+    background-color: rgba(200, 35, 51, 0.9);
+    color: white;
+}
+
+.category-btn.toys.active {
+    background-color: rgba(200, 35, 51, 0.9);
+    color: white;
 }
 
 .product-section {
@@ -132,7 +190,22 @@ h1 {
 
 /* 飲料區標題特定樣式 */
 #drinks h2 {
-    background-color: rgba(0, 123, 255, 0.9);
+    background-color: rgba(64, 156, 255, 0.9);
+}
+
+/* 生活用品區標題特定樣式 */
+#daily h2 {
+    background-color: rgba(59, 165, 84, 0.9);
+}
+
+/* 零食區標題特定樣式 */
+#snacks h2 {
+    background-color: rgba(209, 159, 11, 0.9);
+}
+
+/* 玩具雜項區標題特定樣式 */
+#toys h2 {
+    background-color: rgba(199, 44, 60, 0.9);
 }
 
 .product-grid {
@@ -182,7 +255,7 @@ h1 {
 }
 
 .points {
-    color: #20b340e5;
+    color: #6b20b1e5;
     font-weight: bold;
     margin-bottom: 15px;
     font-size: 18px;
